@@ -1,8 +1,7 @@
 ################################################
 
 CC = gcc
-#FLAGS = -Wall -Wextra -Werror -O2 
-FLAGS = -Wall -Wextra -Werror -O2 -g
+FLAGS = -Wall -Wextra -Werror -O2 
 INCL = ./includes/
 CFLAGS = -I $(INCL) $(FLAGS) 
 
