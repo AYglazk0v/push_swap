@@ -68,6 +68,8 @@ t_lint	ft_atoi(const char *str)
 		sign *= -1;
 	if (*str == '-' || *str == '+')
 		str++;
+	if (!*str)
+		return(-2147483649);
 	while (*str >= '0' && *str <= '9')
 	{
 		num = num * 10 + *str - '0';
