@@ -83,7 +83,7 @@ re: fclean all
 
 bonus: $(NAME_CHK)
 
-.PHONY: all re clean fclean suicide step step2 step3 step4 step5 step6 step7 dance
+.PHONY: all re clean fclean step step2 step3 step4 step5 step6 step7 dance
 
 ################################################
 
