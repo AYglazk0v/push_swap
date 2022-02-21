@@ -6,7 +6,7 @@
 /*   By: gtaggana <gtaggana@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/02/13 12:25:37 by gtaggana          #+#    #+#             */
-/*   Updated: 2022/02/13 12:26:43 by gtaggana         ###   ########.fr       */
+/*   Updated: 2022/02/21 16:30:02 by gtaggana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ t_lint	ft_atoi(const char *str)
 	if (*str == '-' || *str == '+')
 		str++;
 	if (!*str)
-		return(-2147483649);
+		return (-2147483649);
 	while (*str >= '0' && *str <= '9')
 	{
 		num = num * 10 + *str - '0';
